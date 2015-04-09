@@ -23,7 +23,7 @@ body{
 .boton-categorias{
 
 	border: none;
-	color: rgb(98, 172, 84);
+	color: rgb(4, 51, 128);
 	font-size: 25px;
 }
 
@@ -46,13 +46,13 @@ body{
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
-	border: 2px solid green;
+	border: 2px solid rgb(4, 51, 128);
 	background-color: #FFF;
 }
 
 .inner-body {
 
-	background-color:  #ECEEE9;
+	background-color:  rgba(253, 241, 217, 0.26);
 }
 
 .texto-receta{
@@ -79,13 +79,13 @@ body{
 
 .inner-footer{
 
-	border-top: 2px solid green;
+	border-top: 2px solid #E73234;
 	margin: 20px;
 }
 
 .social-buttons{
 
-	background-color: #529F43;
+	background-color: #E73234;
 	height: 100px;
 	color: #fff;
 	font-size: 40px;
