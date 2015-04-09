@@ -1,9 +1,101 @@
+body{
+
+	margin-top: 20px;
+}
 .img-responsive{
 
 	margin: 0 auto;
 }
 
-div{
+.navegacion{
 
-	border: 1px solid red;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fila-filtro{
+
+
+	margin-top: 20px;
+	text-align: center;
+}
+
+.boton-categorias{
+
+	border: none;
+	color: rgb(98, 172, 84);
+	font-size: 25px;
+}
+
+.fila-recetas{
+
+	margin-top: 20px;
+}
+.filtro-componente{
+
+	display: inline-block;
+}
+.boton-categorias:hover{
+
+	color: rgb(30, 129, 11);
+	transition: 1s ease;
+}
+
+.inner-receta { 
+
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border: 2px solid green;
+	background-color: #FFF;
+}
+
+.inner-body {
+
+	background-color:  #ECEEE9;
+}
+
+.texto-receta{
+
+	height: 100px;
+}
+
+.categoria-receta{
+	padding: 10px;
+	font-style: italic;
+	font-size: 10px
+}
+
+.nombre-receta{
+
+	color: rgb(30, 129, 11);
+	font-weight: 2em;
+}
+
+.about{
+
+	font-size: 1.5em;
+}
+
+.inner-footer{
+
+	border-top: 2px solid green;
+	margin: 20px;
+}
+
+.social-buttons{
+
+	background-color: #529F43;
+	height: 100px;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px;
+}
+
+.page-footer{
+
+	background-color: #666;
+	height: 100px;
 }
